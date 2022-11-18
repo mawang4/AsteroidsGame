@@ -22,10 +22,10 @@ public void draw() {
 public void keyPressed() {
    if(keyPressed){
      if(key == 'w'){
-       rocket.accelerate(0.1);
+       rocket.accelerate(0.5);
      }
      if(key == 's'){
-       rocket.accelerate(-0.1);
+       rocket.accelerate(-0.5);
      }
      if(key == 'a'){
        rocket.turn(-10);
