@@ -41,4 +41,4 @@ class Spaceship extends Floater{
   public double getPointDirection(){
     return myPointDirection;
   }
-}
+}  
