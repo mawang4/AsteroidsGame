@@ -18,4 +18,4 @@ class Bullet extends Floater{
   public double getCenterY(){
     return myCenterY;
   }
-}
+}  
